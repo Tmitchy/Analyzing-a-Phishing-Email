@@ -31,7 +31,7 @@ The purpose of this project is to demonstrate how a Junior SOC Analyst can ident
 
 ## 1️⃣ Suspicious Sender Address
 
-The malicious actor used the name **noreply-amazon.com** to make me believe the email came from Amazon, but I was able to detect this immediately. Most actors design these emails to steal your personal data, password, or financial information, and it looks so real that someone not careful can fall for this email. Additionally, the supposed **domain** did not match the organization's legitimate domain.
+The malicious actor used the name **noreply-amazon.com** to make me believe the email came from a server belonging to Amazon, but I was able to detect this immediately by verifying the **domain**. Most actors design these emails to steal your personal data, password, or financial information, and it looks so real that someone not careful can fall for this email. Additionally, the supposed **domain** did not match the organization's legitimate domain.
 
 **Red Flag**
 - Display name ≠ Actual email address
@@ -56,7 +56,7 @@ Attackers rely on emotional pressure to reduce critical thinking.
 
 Before clicking any hyperlinks, I hovered over them to inspect the destination URL.
 
-The links pointed to domains unrelated to my organization, strongly suggesting malicious intent.
+The links pointed to domains unrelated to Amazon noreply emails, strongly suggesting malicious intent.
 
 **Always:**
 - Hover before clicking
@@ -67,13 +67,13 @@ The links pointed to domains unrelated to my organization, strongly suggesting m
 
 ## 4️⃣ Grammar and Formatting Issues
 
-Despite appearing professional, the email contained subtle inconsistencies such as:
+Despite some malicious emails appearing professional, most emails contain subtle inconsistencies, but in this case, none were found; however, such subtle inconsistencies include:
 
 - Minor grammatical mistakes
 - Awkward sentence structure
 - Inconsistent formatting
 
-While modern phishing emails often use AI-generated content, small errors can still reveal fraudulent messages.
+While modern phishing emails often use AI-generated content, small errors can still reveal fraudulent messages, and it is advised to read carefully before anything.
 
 ---
 
