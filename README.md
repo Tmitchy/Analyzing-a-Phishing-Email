@@ -31,7 +31,7 @@ The purpose of this project is to demonstrate how a Junior SOC Analyst can ident
 
 ## 1️⃣ Suspicious Sender Address
 
-Although the sender's **display name** belonged to an employee from another department, the actual email address did not match the organization's legitimate domain.
+The malicious actor used the name **noreply-amazon.com** to make me believe the email came from Amazon, but I was able to detect this immediately. Most actors design these emails to steal your personal data, password, or financial information, and it looks so real that someone not careful can fall for this email. Additionally, the supposed **domain** did not match the organization's legitimate domain.
 
 **Red Flag**
 - Display name ≠ Actual email address
